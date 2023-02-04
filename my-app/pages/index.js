@@ -132,8 +132,8 @@ export default function Home() {
 	};
 
 	/*
-    connectWallet: Connects the MetaMask wallet
-  */
+	  connectWallet: Connects the MetaMask wallet
+	*/
 	const connectWallet = async () => {
 		try {
 			// Get the provider from web3Modal, which in our case is MetaMask
@@ -149,8 +149,8 @@ export default function Home() {
 	};
 
 	/*
-    renderButton: Returns a button based on the state of the dapp
-  */
+	  renderButton: Returns a button based on the state of the dapp
+	*/
 	const renderButton = () => {
 		if (walletConnected) {
 			if (joinedWhitelist) {
